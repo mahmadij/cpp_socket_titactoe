@@ -1,0 +1,18 @@
+Tic Tac Toe 
+===================== 
+Tic Tac Toe is a game played by two players on a 9 tile-board
+Each player takes a turn to claim a tile.
+The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. 
+=====================
+Running the game:
+Run the server first
+Run the client. 
+When ready hit enter (this will create a connection to the server through socket).
+The first client hitting enter gets to go first.
+The next player is locked until the first player made their move.
+The player with the turn enters the tile number they wish to claim and hit enter.
+If it is not available, they need to choose another one.
+The game checks for invalid moves, wins and if there is anytile left to claim.
+If a third client joins the team, they are locked from playing. However, they can watch the game.
+The server records the choices of the clients by the client #.
+=====================
